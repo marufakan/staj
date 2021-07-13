@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day1</title>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet.?</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <label for="">Not 1:</label>
+    <input type="text" id="not1" >
+    <label for="">Not 2:</label>
+    <input type="text" id="not2" >
+    <br><br>
+    <button onclick="hesapla()">Hesapla</button>
+    <br><br>
+    <label for="" >Sonuç :</label>
+    <input type="text" id="sonuc" value="">
+
+    <script>
+        function hesapla() {
+            const x = parseFloat(document.getElementById("not1").value);
+            const y = parseFloat(document.getElementById("not2").value);
+            var s =parseFloat((x+y)/2);
+            document.getElementById("sonuc").value = s;
+            if(s>=50){
+                document.getElementById("sonuc").style.backgroundColor= "#54E954";
+            }
+            else if(s<=49){
+                document.getElementById("sonuc").style.backgroundColor = "#DF5F48";
+            }
+          }
+    </script>
+
+
+    
+    
+</body>
+</html>
