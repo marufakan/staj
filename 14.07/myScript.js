@@ -6,5 +6,5 @@ function myAlert(){
   window.alert("Merhaba");
 }
 function write(){
-  console.log("Hello")
+  console.log("Hello0")
 }
