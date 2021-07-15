@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $("#flip").click(function(){
+      $("#panel").slideToggle("slow");
+    });
+    $("button").click(function(){
+        $(this).addClass("blue");
+    });
+    $("button").dblclick(function(){
+        $(this).addClass("white");
+    })
+    $("#btn1").click(function(){
+        $("button").addClass("white");
+    })
+  });

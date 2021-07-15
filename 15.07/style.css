@@ -1,0 +1,49 @@
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: blue;
+    border: solid 0.5px black;
+    
+  }
+  div#panel a:hover {
+    background-color:goldenrod;
+  }
+  
+  #panel {
+    background-color: transparent;
+    color: black;
+    display: none;
+    padding: 12px;
+    text-decoration: none;
+    
+  }
+  button#flip{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+    border-radius: 2px;
+  }
+  a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px;
+  }
+  body{
+    margin: 0px;
+  }
+  p{
+    text-align: left;
+    width:700px;
+  }
+  button{
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+  }
+  .blue {
+    background-color: blue;
+  }
+  .white {
+    background-color: white;
+  }
